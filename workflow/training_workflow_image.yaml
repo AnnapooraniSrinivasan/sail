@@ -10,8 +10,8 @@ metadata:
     artifacts.ai.sap.com/image-data.kind: "dataset"
     artifacts.ai.sap.com/image-model-tutorial.kind: "model"
   labels:
-    scenarios.ai.sap.com/id: "sail-train"
-    executables.ai.sap.com/id: "image-sail-train"
+    scenarios.ai.sap.com/id: "sail-training"
+    executables.ai.sap.com/id: "sail-training"
     ai.sap.com/version: "1.0.0"
 spec:
   imagePullSecrets:
