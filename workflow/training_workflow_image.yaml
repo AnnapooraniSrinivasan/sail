@@ -28,7 +28,6 @@ spec:
       outputs:
         none: {} 
           
-            globalName: image-model-tutorial
             archive:
               none: {}
       container:
