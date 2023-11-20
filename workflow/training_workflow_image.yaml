@@ -24,12 +24,10 @@ spec:
           ai.sap.com/resourcePlan: train.l
       inputs:
         artifacts:
-          - name: image-data
-            path: /app/data/
+  
       outputs:
         artifacts: 
-          - name: image-model-tutorial
-            path: /app/model
+          
             globalName: image-model-tutorial
             archive:
               none: {}
