@@ -26,9 +26,8 @@ spec:
         none: {}
         
       outputs:
-        artifacts: 
-          - name: image-model-tutorial
-            path: /app/model
+        none: {} 
+          
             globalName: image-model-tutorial
             archive:
               none: {}
