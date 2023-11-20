@@ -26,8 +26,9 @@ spec:
         none: {}
       outputs:
         none: {}
-            archive:
-              none: {}
+        
+        archive:
+          none: {}
       container:
         image: "docker.io/annapooranisrinivasan/sail:0.0.2.RELEASE"
         imagePullPolicy: Always
