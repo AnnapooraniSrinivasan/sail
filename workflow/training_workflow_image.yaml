@@ -7,8 +7,8 @@ metadata:
     scenarios.ai.sap.com/name: "sail-training-scenario"
     executables.ai.sap.com/description: "sail training executable"
     executables.ai.sap.com/name: "sail-training-exec"
-    artifacts.ai.sap.com/image-data.kind: None
-    artifacts.ai.sap.com/image-model-tutorial.kind: None
+    artifacts.ai.sap.com/image-data.kind: " "
+    artifacts.ai.sap.com/image-model-tutorial.kind: " "
 
   labels:
     scenarios.ai.sap.com/id: "sail-training"
