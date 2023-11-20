@@ -7,8 +7,8 @@ metadata:
     scenarios.ai.sap.com/name: "sail-training-scenario"
     executables.ai.sap.com/description: "sail training executable"
     executables.ai.sap.com/name: "sail-training-exec"
-    artifacts.ai.sap.com/image-data.kind: none: {}
-    artifacts.ai.sap.com/image-model-tutorial.kind: none:{}
+    artifacts.ai.sap.com/image-data.kind: "dataset"
+    artifacts.ai.sap.com/image-model-tutorial.kind: "model"
   labels:
     scenarios.ai.sap.com/id: "sail-training"
     executables.ai.sap.com/id: "sail-training"
@@ -23,14 +23,9 @@ spec:
         labels:
           ai.sap.com/resourcePlan: train.l
       inputs:
-        artifacts:
-          - name: image-data
-            path: /app/data/
+        none: {}
       outputs:
-        artifacts: 
-          - name: image-model-tutorial
-            path: /app/model
-            globalName: image-model-tutorial
+        none: {}
             archive:
               none: {}
       container:
