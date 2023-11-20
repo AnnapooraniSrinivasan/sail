@@ -23,11 +23,12 @@ spec:
         labels:
           ai.sap.com/resourcePlan: train.l
       inputs:
-        artifacts:
-  
+        none: {}
+        
       outputs:
         artifacts: 
-          
+          - name: image-model-tutorial
+            path: /app/model
             globalName: image-model-tutorial
             archive:
               none: {}
