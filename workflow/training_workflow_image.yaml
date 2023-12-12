@@ -30,7 +30,7 @@ spec:
         archive:
           none: {}
       container:
-        image: "docker.io/annapooranisrinivasan/sail:0.0.3.RELEASE"
+        image: "docker.io/annapooranisrinivasan/sail:0.0.4.RELEASE"
         imagePullPolicy: Always
         command: ["/bin/sh", "-c"]
         args:
